@@ -37,16 +37,16 @@ VALUES ('Engenharia Civil', 5),
        ('Administração', 4);
 
 INSERT INTO matriculas (aluno_id, curso_id)
-VALUES (2, 2),
-       (5, 2),
+VALUES (1, 1),
+       (2, 3),
+       (3, 3),
+       (4, 3),
+       (5, 1),
        (6, 2),
-       (7, 1),
-       (8, 4),
-       (9, 4),
-       (10, 4),
-       (11, 1),
-       (12, 4),
-       (13, 1);
+       (7, 2),
+       (8, 2),
+       (9, 1),
+       (10, 2);
 
 SELECT a.nome AS aluno, c.nome AS curso, m.data_matricula
 FROM matriculas m
